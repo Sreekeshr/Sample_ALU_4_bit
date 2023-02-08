@@ -16,10 +16,14 @@ Our ALU consist of two units:
   
 ##Methodology
 
-In the ALU design we need to select which operation needs to be carried out. This is done using a 8*1 MUX with three select lines where the select line decides which
-operation should be done . The way the control signal used for selecting the operation is given in the table shown below.The selection of operations is done by selecting these
-particular values of inputs for the control pins . After selection of operation and giving two four bit inputs we need to give a trigger inorder to give the output corresponding to
-the operation and also after viewing the output we need to acknowledge the same inorder to do the next operation. The corresponding signal for the operation output trigger is
-‘OK’ and is acknowledged as “ACK”.
+In the ALU design we need to select which operation needs to be carried out. This is done using a 8*1 MUX with three select lines where the select line decides which operation should be done . The way the control signal used for selecting the operation is given in the table shown below.The selection of operations is done by selecting these particular values of inputs for the control pins . After selection of operation and giving two four bit inputs we need to give a trigger inorder to give the output corresponding to the operation and also after viewing the output we need to acknowledge the same inorder to do the next operation. The corresponding signal for the operation output trigger is ‘OK’ and is acknowledged as “ACK”.
 
 Here the main_control.v act as the top level file and rest are build on top of same
+
+## Sample Mechanism of operation Selection
+
+![image5](https://user-images.githubusercontent.com/58849231/217472395-ab50bb5b-9370-44be-90d8-64b1e5d1240b.png)
+
+
+## Demo
+
