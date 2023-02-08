@@ -29,3 +29,7 @@ Here the main_control.v act as the top level file and rest are build on top of s
 
 ![image15](https://user-images.githubusercontent.com/58849231/217473280-6ba5e68a-40f7-4cc7-baca-ba353f2ba48f.jpg)
 
+
+
+This Project was performed as a mini project by my team include Pranav MV and Sreyas S
+
